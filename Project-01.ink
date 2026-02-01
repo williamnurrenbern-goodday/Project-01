@@ -106,7 +106,7 @@ You pick up the collection of lint beside you. Might be able to start a fire wit
 
 
 == usb == 
-{usb_yes <= 0: You are able to turn off 3 of your usb ports including the ones connecting to the mouse and keyboard.}
+{usb_yes <= 0: You are able to turn off 3 of your usb ports which are not the ones connected to the mouse and keyboard.}
 ~ usb_yes = usb_yes + 1 
 
 Dave ignores your problem. You get angrier. 
@@ -141,7 +141,7 @@ Dave hits the top of you with his fist. He gets fustrated. You lose some health.
 {human_fustration == 7: Dave has had enough. -> beat|  ->  beginning}  
 
 == monitor == 
-{mon <= 0: You are able to hide the correct display size whenever Dave is scrolling through the settings app trying top find it.}
+{mon <= 0: You are able to hide the correct display size whenever Dave is scrolling through the settings app trying to find it.}
 ~ mon = mon + 1 
 
 Dave hits you and cracks your side panel. He gets fustrated. You lose more health. 
@@ -150,10 +150,10 @@ Dave hits you and cracks your side panel. He gets fustrated. You lose more healt
 {human_fustration == 7: Dave has had enough. -> beat|  ->  beginning}  
 
 == power == 
-{pow <= 0: You are able to sabotage your power supply to short-cicuit causing safety precuations that Dave installed to activate which shut you down.}
+{pow <= 0: You are able to sabotage your power supply to short-cicuit causing safety precuations that Dave installed to activate, which shuts you down.}
 ~ pow = pow + 1 
 
-Dave launches you off the desck. He gets more fustrated. You lose a lot of health. 
+Dave launches you off the desk. He gets more fustrated. You lose a lot of health. 
 ~ human_fustration = human_fustration + 2
 ~ health = health - 3 
 {human_fustration == 7: Dave has had enough. -> beat|  ->  beginning}  
