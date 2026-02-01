@@ -56,7 +56,7 @@ Your name is Guy, and your goal is to make your creator’s life a living hell.
 
 == beginning == 
 
-{health <= 0: The end is here -> uh_oh| It is time to bring havoc upon Dave! -> destruction}  
+{health <= 0: The end is here. -> uh_oh| It is time to bring havoc upon Dave! -> destruction}  
 
 
 == uh_oh == 
